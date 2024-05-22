@@ -9,16 +9,17 @@
 body{
     font-family: "Inter", sans-serif;
     height: 1024px;
+    background: #F5F5F5;
     display: flex;
     width: 100%;
     justify-content: center;    
 }
 
 .open_close{
-    background-color: #FFFFFF;
+    background-color: white;
     width: 6%;
-    height: 80vh;
-    border-radius: 50px;
+    height: 100%;
+    border-radius: 0px 32px 32px 0px;
     transition: .3s;
 }
 .open{
@@ -81,7 +82,6 @@ ul{
     justify-content: space-between;
     display: flex;
 }
-
 li{
     list-style: none;
 }
@@ -110,7 +110,6 @@ a{
     display: flex;
     justify-content: space-around;
 }
-
 .box{
     width: 20%;
     height: 250px;
